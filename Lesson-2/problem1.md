@@ -1,6 +1,5 @@
 
 Rearrange the lines of code to create a program that will ask the user for their height and then tell the user if they are tall enough to ride the coaster or not. 
-
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
@@ -12,11 +11,11 @@ Rearrange the lines of code to create a program that will ask the user for their
 (function(){
   var initial = "height = float(input(&quot;Enter your height in inches: &quot;))\n" +
     "if height &lt; 52:\n" +
-    "    print(&quot;Sorry, you&#039;re not tall enough yet. Come back next summer!&quot;)\n" +
+    "    print(&quot;Sorry, you&#039;re not tall enough yet.&quot;)\n" +
     "else:\n" +
     "    print(&quot;Enjoy your ride!&quot;)\n" +
     "if height =&gt; 52:#distractor\n" +
-    "else height &lt; 52:#distractor";
+    "else height &gt; 52:#distractor";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
@@ -38,7 +37,5 @@ Rearrange the lines of code to create a program that will ask the user for their
       event.preventDefault(); 
       parsonsPuzzle.getFeedback(); 
   }); 
-})(); 
-</script>
 })(); 
 </script>
