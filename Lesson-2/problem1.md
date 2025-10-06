@@ -1,3 +1,6 @@
+
+Rearrange the lines of code to create a program that will ask the user for their height and then tell the user if they are tall enough to ride the coaster or not. 
+
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
