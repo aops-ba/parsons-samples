@@ -15,7 +15,7 @@ Rearrange the lines of code to create a program that will ask the user for their
     "    print(&quot;Sorry, you&#039;re not tall enough yet. Come back next summer!&quot;)\n" +
     "else:\n" +
     "    print(&quot;Enjoy your ride!&quot;)\n" +
-    "if height &gt; 52:#distractor\n" +
+    "if height =&gt; 52:#distractor\n" +
     "else height &lt; 52:#distractor";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
@@ -38,5 +38,7 @@ Rearrange the lines of code to create a program that will ask the user for their
       event.preventDefault(); 
       parsonsPuzzle.getFeedback(); 
   }); 
+})(); 
+</script>
 })(); 
 </script>
