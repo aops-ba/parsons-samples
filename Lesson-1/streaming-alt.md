@@ -1,3 +1,8 @@
+---
+layout: default
+title: Streaming Services - Alternative
+description: Identify which statements will be displayed when the following code is run. Be sure to place the statements in the order that the program will display them. 
+---
 
 
 <div id="sortableTrash" class="sortable-code"></div> 
