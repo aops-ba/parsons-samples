@@ -1,3 +1,10 @@
+---
+layout: default
+title: Savings Goal
+description: Select the correct assignment and comparison statements to correctly calculate whether the user has reached their savings goal.
+---
+
+
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
