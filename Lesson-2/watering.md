@@ -1,4 +1,8 @@
-
+---
+layout: default
+title: Rainy Days
+description: Rearrange the blocks to create a program that will inform the user whether or not they need to water their garden based on how many days since it has rained. The user should be told to water their garden for 5 minutes per day it has rained if it has been more than 2 days since rain.
+---
 
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
