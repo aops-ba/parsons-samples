@@ -16,13 +16,11 @@ description: Rearrange the blocks to create a program that will inform the user 
   var initial = "days_since_rain = int(input(&quot;How many days since it rained? &quot;))\n" +
     "if days_since_rain &lt;= 2:\n" +
     "    print(&quot;The soil is still moist.&quot;)\n" +
-    "    print(&quot;No need to water today!&quot;)\n" +
     "else:\n" +
     "    water_minutes = days_since_rain * 5\n" +
     "    print(f&quot;Water your garden for {water_minutes} minutes.&quot;)\n" +
     "else days_since_rain &gt; 2:#distractor\n" +
-    "if days_since_rain =&gt; 2:#distractor\n" +
-    "if days_since_rain &gt; 2:#distractor";
+    "if days_since_rain =&gt; 2:#distractor";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
