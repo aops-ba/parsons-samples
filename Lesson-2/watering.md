@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Rainy Days
-description: Rearrange the blocks to create a program that will inform the user whether or not they need to water their garden based on how many days since it has rained. The user should be told to water their garden for 5 minutes per day it has rained if it has been more than 2 days since rain.
+description: A garden needs 5 minutes of watering for each day since it last rained. It is recommended to wait at least 2 days after rain before watering. Rearrange the blocks to create a program that will give the correct recommendation based on the days since it last rained.
 ---
 
 <div id="sortableTrash" class="sortable-code"></div> 
@@ -13,14 +13,14 @@ description: Rearrange the blocks to create a program that will inform the user 
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "days_since_rain = int(input(&quot;How many days since it rained? &quot;))\n" +
+  var initial = "days_since_rain = int(input(&quot;Enter days since last rain: &quot;))\n" +
     "if days_since_rain &lt;= 2:\n" +
-    "    print(&quot;The soil is still moist.&quot;)\n" +
+    "    print(&quot;Watering not recommended.&quot;)\n" +
     "else:\n" +
     "    water_minutes = days_since_rain * 5\n" +
-    "    print(f&quot;Water your garden for {water_minutes} minutes.&quot;)\n" +
-    "else days_since_rain &gt; 2:#distractor\n" +
-    "if days_since_rain =&gt; 2:#distractor";
+    "    print(f&quot;{water_minutes} minutes of watering recommended.&quot;)\n" +
+    "if days_since_rain =&gt; 2:#distractor\n" +
+    "else days_since_rain &gt; 2:#distractor";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
