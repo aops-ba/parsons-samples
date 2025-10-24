@@ -1,4 +1,8 @@
-
+---
+layout: default
+title: Battery Level
+description: Create a program that will prompt the user to enable low power mode if the battery level is 20% or less. Otherwise, the program should display an approximate number of hours left in the battery. 
+---
 
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
